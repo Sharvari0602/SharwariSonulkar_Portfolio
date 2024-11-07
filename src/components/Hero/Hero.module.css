@@ -1,0 +1,96 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow content to take equal space */
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 40px; /* Adjusted font size for balance */
+  font-weight: 900;
+  margin-bottom: 10px; /* Adjusted margin */
+  font-family: var(--font-roboto);
+}
+
+.description {
+  font-size: 20px; /* Adjusted font size for balance */
+  font-family: var(--font-roboto);
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+.contactBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 25px; /* Adjusted font size for balance */
+  font-weight: 600;
+  padding: 10px 15px; /* Adjusted padding */
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.heroImg {
+  width: 200px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the area */
+  border: 5px solid white; /* Optional: Add a white border for contrast */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+  z-index: 1; /* Ensure the image is above the blur effects */
+  flex: 1; /* Allow image to take equal space */
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: center; /* Center align items */
+  }
+
+  .content {
+    align-items: center; /* Center align content */
+    text-align: center; /* Center text */
+  }
+
+  .heroImg {
+    margin-bottom: 20px; /* Space between image and text */
+  }
+}

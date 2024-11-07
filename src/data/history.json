@@ -1,0 +1,33 @@
+[
+    {
+      "role": "Full Stack Development Intern",
+    "organisation": "MRSAC",
+    "startDate": "Month Year",
+    "endDate": "Month Year",
+    "imageSrc": "./src/assets/history/mrsac.png",
+    "experiences": [
+      "Developed a rainfall prediction system under GIS, collected and preprocessed weather data, then mapped it using GIS software.",
+        "Trained machine learning models to predict future rainfall based on historical data. Visualized results on GIS maps for easy interpretation."
+    ]
+  
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "ImmverseAI",
+      "startDate": "June, 2024",
+      "endDate": "Aug, 2024",
+      "experiences": [" Developed a responsive website by precisely translating Figma designs into high-quality, interactive web pages.", " Designed and Developed the websites according to Clients requirement."],
+      "imageSrc": "./src/assets/history/immverse_ai_logo.jpeg"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "The Space Element",
+      "startDate": "May, 2024",
+      "endDate": "Jun, 2024",
+      "experiences": [
+        " Designing an E-commerce website based on MERN stack development",
+        "Designed create UI components"
+      ],
+      "imageSrc": "./src/assets/history/tse.jpeg"
+    }
+  ]

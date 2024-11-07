@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Rainfall Prediction Site",
+      "imageSrc": "./src/assets/projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node","Tailwind CSS"]
+     
+    },
+    {
+      "title": "Pet Adoption Site",
+      "imageSrc": "./src/assets/projects/pet.png",
+      "description": " Pet adoption website for local area..",
+      "skills": ["React", "Express", "Node", "Sass" ,"Bootstrap"]
+      
+    },
+    {
+      "title": "Immverse Project ",
+      "imageSrc": "./src/assets/projects/imm.png",
+      "description": "Developed a responsive website by translating Figma designs into interactive webpages.",
+      "skills": ["Nextjs", "Bootstrap","Tailwind CSS"]
+     
+    }
+  ]
